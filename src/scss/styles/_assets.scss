@@ -1,0 +1,26 @@
+// Assets
+.button-primary {
+  background: $red;
+  border-color: transparent;
+  color: $white;
+  text-transform: uppercase;
+}
+.heading {
+  padding: 20px;
+}
+.image-placeholder {
+  background: $black;
+  min-height: 500px;
+}
+.content-block {
+  padding-top: 160px;
+  @include breakpoint(m) {
+    width: 360px;
+  }
+  @include breakpoint(l) {
+    width: 460px;
+  }
+  @include breakpoint(xl) {
+    width: 560px;
+  }
+}

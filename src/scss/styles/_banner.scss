@@ -19,6 +19,7 @@
   @include breakpoint(m) {
     min-height: 400px;
     margin-top: -60px;
+    margin-bottom: 60px;
   }
   @include breakpoint(l) {
     min-height: 500px;
@@ -26,11 +27,26 @@
 }
 .banner-inner {
   position: relative;
-  padding-top: 320px;
+  padding-top: 220px;
   z-index: 100;
 }
 .banner-heading { color: $white; }
 .banner-content {
   @include font-size(12);
   text-transform: uppercase;
+}
+.banner-button {
+  width: 180px;
+  position: relative;
+  &:after {
+    content: "";
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -8px;
+    background: url(../img/right-chevron.svg) 50% 50% no-repeat;
+    background-size: cover;
+  }
 }
