@@ -1,0 +1,19 @@
+// Banners
+
+.image-banner {
+  background: $dark-blue;
+  min-height: 80px;
+  @include breakpoint(m) {
+    min-height: 700px;
+  }
+  @include breakpoint(l) {
+    min-height: 600px;
+  }
+
+}
+
+.about-image-banner {
+  background: url(../img/3.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+

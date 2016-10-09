@@ -1459,17 +1459,35 @@ input:-ms-input-placeholder {
   text-transform: uppercase; }
 
 .heading {
-  padding: 20px; }
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -150px;
+  z-index: 1000; }
 
-.image-placeholder {
-  background: #000;
-  min-height: 500px; }
+.heading-inner {
+  display: block;
+  background: #db3333;
+  color: #fff;
+  padding: 30px 10px;
+  text-transform: uppercase;
+  font-weight: 100; }
 
 .content-block {
-  padding-top: 160px; }
+  padding: 60px 20px 20px 20px; }
   @media only screen and (min-width: 740px) {
     .content-block {
-      width: 360px; } }
+      width: 360px;
+      padding-top: 160px; } }
   @media only screen and (min-width: 980px) {
     .content-block {
       width: 460px; } }
@@ -1488,7 +1506,7 @@ input:-ms-input-placeholder {
     width: 100%;
     height: 100%;
     background: #000;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     display: block;
     position: absolute;
     top: 0;
@@ -1505,8 +1523,14 @@ input:-ms-input-placeholder {
 
 .banner-inner {
   position: relative;
-  padding-top: 220px;
-  z-index: 100; }
+  z-index: 100;
+  padding-top: 140px; }
+  @media only screen and (min-width: 740px) {
+    .banner-inner {
+      padding-top: 220px; } }
+  @media only screen and (min-width: 980px) {
+    .banner-inner {
+      padding-top: 320px; } }
 
 .banner-heading {
   color: #fff; }
@@ -1529,6 +1553,20 @@ input:-ms-input-placeholder {
     margin-top: -8px;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMCAxNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cGF0aCBkPSJNMC45NjYsMTUuODM0Yy0wLjExMSwwLjExMSAtMC4yNDksMC4xNjYgLTAuNCwwLjE2NmMtMC4xNTIsMCAtMC4yOSwtMC4wNTUgLTAuNCwtMC4xNjZjLTAuMjIxLC0wLjIyIC0wLjIyMSwtMC41NzkgMCwtMC44bDcuMDM0LC03LjAzNGwtNy4wMzQsLTcuMDM0Yy0wLjIyMSwtMC4yMjEgLTAuMjIxLC0wLjU4IDAsLTAuOGMwLjIyLC0wLjIyMSAwLjU3OSwtMC4yMjEgMC44LDBsNy40MzQsNy40MzRjMC4yMjEsMC4yMjEgMC4yMjEsMC41NzkgMCwwLjhsLTcuNDM0LDcuNDM0bDAsMFoiIHN0eWxlPSJmaWxsOiMwMDA7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PC9zdmc+) 50% 50% no-repeat;
     background-size: cover; }
+
+.image-banner {
+  background: #01259f;
+  min-height: 80px; }
+  @media only screen and (min-width: 740px) {
+    .image-banner {
+      min-height: 700px; } }
+  @media only screen and (min-width: 980px) {
+    .image-banner {
+      min-height: 600px; } }
+
+.about-image-banner {
+  background: url(../img/3.jpg) 0 0 no-repeat;
+  background-size: cover; }
 
 .header {
   position: relative;

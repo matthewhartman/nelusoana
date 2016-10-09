@@ -6,16 +6,32 @@
   text-transform: uppercase;
 }
 .heading {
+  @include font-size($base-h4-font-size);
+  @include line-height($base-h4-line-height);
   padding: 20px;
+  text-align: center;
+  width: 300px;
+  background: $white;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -150px;
+  z-index: 1000;
 }
-.image-placeholder {
-  background: $black;
-  min-height: 500px;
+.heading-inner {
+  display: block;
+  background: $red;
+  color: $white;
+  padding: 30px 10px;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 .content-block {
-  padding-top: 160px;
+  padding: 60px 20px 20px 20px;
   @include breakpoint(m) {
     width: 360px;
+    padding-top: 160px;
   }
   @include breakpoint(l) {
     width: 460px;
