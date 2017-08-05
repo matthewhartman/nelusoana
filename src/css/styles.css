@@ -47,7 +47,7 @@ body {
   font-size: 1rem;
   line-height: 22px;
   line-height: 1.375rem;
-  color: #000;
+  color: #111;
   font-weight: 400;
   background: #fff; }
 
@@ -55,7 +55,7 @@ p {
   margin: 0 0 20px 0; }
 
 a {
-  color: #000;
+  color: #01259f;
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -65,7 +65,7 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "Yeseva One";
   margin: 0; }
 
 h1, .fs-1 {
@@ -425,7 +425,7 @@ input:-ms-input-placeholder {
     background: #f9f9f9; }
 
 .button-link {
-  color: #000;
+  color: #01259f;
   text-decoration: underline;
   border: 0;
   background: transparent;
@@ -1451,10 +1451,21 @@ input:-ms-input-placeholder {
   abbr[title]:after {
     content: " (" attr(title) ")"; } }
 
-.button-primary {
+.button {
+  padding: 16px 48px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
   background: #db3333;
   border-color: transparent;
   color: #fff; }
+
+.button-secondary {
+  background: #ccc;
+  border-color: transparent;
+  color: #111; }
 
 .heading {
   font-size: 18px;
@@ -1496,7 +1507,6 @@ input:-ms-input-placeholder {
       width: 560px; } }
 
 .banner {
-  min-height: 340px;
   background: url(../img/banner.jpg) 0 0 no-repeat #111;
   background-size: cover;
   color: #fff;
@@ -1521,42 +1531,46 @@ input:-ms-input-placeholder {
       min-height: 500px; } }
 
 .banner-inner {
+  text-align: center;
   position: relative;
   z-index: 100;
-  padding-top: 160px;
-  padding-bottom: 40px; }
+  padding: 40px 0; }
   @media only screen and (min-width: 740px) {
     .banner-inner {
-      padding-top: 180px; } }
-  @media only screen and (min-width: 980px) {
-    .banner-inner {
-      padding-top: 280px; } }
+      padding-top: 80px; } }
 
 .banner-heading {
-  color: #fff; }
-
-.banner-button {
-  padding: 12px 40px 12px 15px;
-  position: relative; }
-  .banner-button:after {
-    content: "";
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    margin-top: -7px;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMCAxNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cGF0aCBkPSJNMC45NjYsMTUuODM0Yy0wLjExMSwwLjExMSAtMC4yNDksMC4xNjYgLTAuNCwwLjE2NmMtMC4xNTIsMCAtMC4yOSwtMC4wNTUgLTAuNCwtMC4xNjZjLTAuMjIxLC0wLjIyIC0wLjIyMSwtMC41NzkgMCwtMC44bDcuMDM0LC03LjAzNGwtNy4wMzQsLTcuMDM0Yy0wLjIyMSwtMC4yMjEgLTAuMjIxLC0wLjU4IDAsLTAuOGMwLjIyLC0wLjIyMSAwLjU3OSwtMC4yMjEgMC44LDBsNy40MzQsNy40MzRjMC4yMjEsMC4yMjEgMC4yMjEsMC41NzkgMCwwLjhsLTcuNDM0LDcuNDM0bDAsMFoiIHN0eWxlPSJmaWxsOiMwMDA7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PC9zdmc+) 50% 50% no-repeat;
-    background-size: cover; }
+  font-size: 44px;
+  font-size: 2.75rem;
+  line-height: 50px;
+  line-height: 3.125rem;
+  word-break: break-all;
+  color: #fff;
+  text-transform: capitalize; }
+  @media only screen and (min-width: 740px) {
+    .banner-heading {
+      font-size: 60px;
+      font-size: 3.75rem;
+      line-height: 70px;
+      line-height: 4.375rem; } }
 
 .banner-content {
-  width: 75%; }
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+  padding: 0 20px 20px 20px;
+  margin: 0 auto; }
   @media only screen and (min-width: 740px) {
     .banner-content {
-      width: 300px; } }
+      width: 520px; } }
   @media only screen and (min-width: 980px) {
     .banner-content {
-      width: 320px; } }
+      font-size: 26px;
+      font-size: 1.625rem;
+      line-height: 32px;
+      line-height: 2rem;
+      width: 600px; } }
 
 .image-banner {
   background: #01259f;

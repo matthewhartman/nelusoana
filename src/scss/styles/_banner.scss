@@ -1,6 +1,5 @@
 // Banner
 .banner {
-  min-height: 340px;
   background: url(../img/banner.jpg) 0 0 no-repeat $darkest-grey;
   background-size: cover;
   color: $white;
@@ -25,39 +24,36 @@
   }
 }
 .banner-inner {
+  text-align: center;
   position: relative;
   z-index: 100;
-  padding-top: 160px;
-  padding-bottom: 40px;
+  padding: 40px 0;
   @include breakpoint(m) {
-    padding-top: 180px;
-  }
-  @include breakpoint(l) {
-    padding-top: 280px;
+    padding-top: 80px;
   }
 }
-.banner-heading { color: $white; }
-.banner-button {
-  padding: 12px 40px 12px 15px;
-  position: relative;
-  &:after {
-    content: "";
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    margin-top: -7px;
-    background: url(../img/right-chevron.svg) 50% 50% no-repeat;
-    background-size: cover;
+.banner-heading {
+  @include font-size(44);
+  @include line-height(50);
+  word-break: break-all;
+  color: $white;
+  text-transform: capitalize;
+  @include breakpoint(m) {
+    @include font-size(60);
+    @include line-height(70);
   }
 }
 .banner-content {
-  width: 75%;
+  @include font-size($base-h3-font-size);
+  @include line-height($base-h3-line-height);
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
   @include breakpoint(m) {
-    width: 300px;
+    width: 520px;
   }
   @include breakpoint(l) {
-    width: 320px;
+    @include font-size($base-h2-font-size);
+    @include line-height($base-h2-line-height);
+    width: 600px;
   }
 }
