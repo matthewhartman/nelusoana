@@ -1494,7 +1494,7 @@ input:-ms-input-placeholder {
   font-weight: 700; }
 
 .content-block {
-  padding: 60px 20px 20px 20px; }
+  padding: 80px 20px 20px 20px; }
   @media only screen and (min-width: 740px) {
     .content-block {
       width: 360px;
@@ -1511,7 +1511,7 @@ input:-ms-input-placeholder {
 
 .image-banner {
   background: #01259f;
-  min-height: 80px; }
+  min-height: 100px; }
 
 .header {
   background: #111;
