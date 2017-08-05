@@ -4,10 +4,10 @@
   background: $dark-blue;
   min-height: 80px;
   @include breakpoint(m) {
-    min-height: 700px;
+    min-height: 1100px;
   }
   @include breakpoint(l) {
-    min-height: 600px;
+    min-height: 800px;
   }
 
 }

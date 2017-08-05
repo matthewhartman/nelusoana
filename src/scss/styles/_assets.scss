@@ -3,7 +3,6 @@
   background: $red;
   border-color: transparent;
   color: $white;
-  text-transform: uppercase;
 }
 .heading {
   @include font-size($base-h4-font-size);
@@ -32,6 +31,8 @@
   @include breakpoint(m) {
     width: 360px;
     padding-top: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   @include breakpoint(l) {
     width: 460px;

@@ -1,19 +1,19 @@
 // ==========================================================================
-// Website or App Stylesheet
+// Nelus Oana Stylesheet
 // ==========================================================================
 
-// Variables and Colors
+// Variables and Colours
 @import "styles/variables-colors";
 
 // Import Base
-@import "base";
+@import "node_modules/getbase/src/scss/base";
 
-// Website / App Styles
+// Overall Styles
 @import "styles/assets";
 @import "styles/banner";
 @import "styles/image-banners";
 @import "styles/header";
 @import "styles/footer";
 
-// Import Base Helpers
-@import "base/_helpers";
+// Base Helpers
+@import "node_modules/getbase/src/scss/base/_helpers";
