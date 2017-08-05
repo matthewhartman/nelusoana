@@ -1,6 +1,6 @@
 // Banner
 .banner {
-  background: url(../img/banner.jpg) 0 0 no-repeat $darkest-grey;
+  background: url(../img/apple-tree.jpg) 0 0 no-repeat $darkest-grey;
   background-size: cover;
   color: $white;
   position: relative;
@@ -11,7 +11,7 @@
     content: "";
     width: 100%;
     height: 100%;
-    @include background-alpha($black, 80%);
+    @include background-alpha($dark-blue, 20%);
     display: block;
     position: absolute;
     top: 0;
@@ -25,6 +25,10 @@
   @include breakpoint(l) {
     padding-top: 140px;
     padding-bottom: 140px;
+  }
+  @include breakpoint(xl) {
+    padding-top: 180px;
+    padding-bottom: 180px;
   }
 }
 .banner-inner {
