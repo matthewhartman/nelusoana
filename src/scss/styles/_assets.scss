@@ -42,10 +42,11 @@
     width: 360px;
     padding-top: 160px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 20px;
   }
   @include breakpoint(l) {
     width: 460px;
+    padding-right: 30px;
   }
   @include breakpoint(xl) {
     width: 560px;
