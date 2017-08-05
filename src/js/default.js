@@ -12,15 +12,15 @@ function googleMap() {
   var map = document.getElementById('google-map');
 
   var map_options = {
-    center: new google.maps.LatLng(-38.033811,145.202865),
+    center: new google.maps.LatLng(-37.9073198,145.1494552),
     scrollwheel: false,
-    zoom: 18,
+    zoom: 15,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   var map = new google.maps.Map(map, map_options)
 
   // Map Marker
-  var myLatlng = new google.maps.LatLng(-38.033811,145.202865);
+  var myLatlng = new google.maps.LatLng(-37.9073198,145.1494552);
   var marker = new google.maps.Marker({
     position: myLatlng,
     map: map,
