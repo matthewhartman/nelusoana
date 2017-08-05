@@ -4,6 +4,9 @@
   background-size: cover;
   color: $white;
   position: relative;
+  margin-bottom: 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   &:after {
     content: "";
     width: 100%;
@@ -15,22 +18,19 @@
     left: 0;
     z-index: 4;
   }
-  margin-bottom: 1px;
   @include breakpoint(m) {
-    min-height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   @include breakpoint(l) {
-    min-height: 500px;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 }
 .banner-inner {
   text-align: center;
   position: relative;
   z-index: 100;
-  padding: 40px 0;
-  @include breakpoint(m) {
-    padding-top: 80px;
-  }
 }
 .banner-heading {
   @include font-size(44);
@@ -39,6 +39,10 @@
   color: $white;
   text-transform: capitalize;
   @include breakpoint(m) {
+    @include font-size(50);
+    @include line-height(60);
+  }
+  @include breakpoint(l) {
     @include font-size(60);
     @include line-height(70);
   }
@@ -55,5 +59,13 @@
     @include font-size($base-h2-font-size);
     @include line-height($base-h2-line-height);
     width: 600px;
+  }
+}
+.banner-button {
+  display: block;
+  margin: 5px 0;
+  @include breakpoint(m) {
+    display: inline-block;
+    margin: 0 2px;
   }
 }
