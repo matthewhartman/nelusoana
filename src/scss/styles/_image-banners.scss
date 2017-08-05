@@ -9,6 +9,9 @@
   @include breakpoint(l) {
     min-height: 1200px;
   }
+  @include breakpoint(xl) {
+    min-height: 1000px;
+  }
 
 }
 

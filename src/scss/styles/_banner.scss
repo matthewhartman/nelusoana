@@ -37,18 +37,19 @@
   z-index: 100;
 }
 .banner-heading {
-  @include font-size(44);
-  @include line-height(50);
+  @include font-size(60);
+  @include line-height(72);
   word-break: break-all;
   color: $white;
   text-transform: capitalize;
+  margin-bottom: 20px;
   @include breakpoint(m) {
-    @include font-size(50);
-    @include line-height(60);
+    @include font-size(80);
+    @include line-height(100);
   }
   @include breakpoint(l) {
-    @include font-size(60);
-    @include line-height(70);
+    @include font-size(100);
+    @include line-height(120);
   }
 }
 .banner-content {

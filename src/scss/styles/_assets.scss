@@ -29,12 +29,13 @@
   z-index: 1000;
 }
 .heading-inner {
+  @include font-size(32);
+  @include line-height(36);
   display: block;
   background: $red;
   color: $white;
   padding: 30px 10px;
-  text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 700;
 }
 .content-block {
   padding: 60px 20px 20px 20px;

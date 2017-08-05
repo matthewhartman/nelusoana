@@ -3,6 +3,6 @@
 // Load Custom Google Font
 WebFont.load({
   google: {
-    families: ['Source Sans Pro:200,300,400,600,700,900', 'Yeseva One']
+    families: ['Source Sans Pro:200,300,400,600,700,900', 'Clicker Script']
   }
 });

@@ -1,11 +1,17 @@
 // Header
 .header {
   background: $darkest-grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include breakpoint(m) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 // Logo
 .logo {
-  width: 120px;
-  height: 80px;
+  width: 225px;
+  height: 60px;
   display: block;
   background: url(../img/nelusoana.svg) 50% 50% no-repeat;
   transition: all .2s;
@@ -16,14 +22,11 @@
 }
 // Menu
 .menu {
-  @include font-size(12);
-  @include line-height(18);
-  text-transform: uppercase;
   list-style: none;
   margin: 0;
-  padding: 0 0 20px 0;
+  padding: 20px 0 0 0;
   @include breakpoint(m) {
-    padding: 35px 0 0 0;
+    padding: 26px 0 0 0;
     float: right;
   }
   & > li {
