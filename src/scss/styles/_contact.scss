@@ -1,0 +1,92 @@
+// Contact
+.contact-content {
+  width: 100%;
+  @include breakpoint(m) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    background: $red;
+    min-height: 600px;
+    width: 50%;
+  }
+}
+.contact-content-inner {
+  background: $red;
+  position: relative;
+  z-index: 1000;
+  padding: 15px;
+  @include breakpoint(m) {
+    padding: 25px;
+    top: 55px;
+    width: 400px;
+    float: right;
+    margin-right: -60px;
+  }
+  @include breakpoint(l) {
+    width: 440px;
+    top: 70px;
+  }
+  @include breakpoint(xl) {
+    width: 480px;
+    top: 95px;
+  }
+}
+.contact-content-info {
+  padding: 50px 30px 20px 30px;
+  background: $white;
+  @include breakpoint(m) {
+    padding: 30px;
+    color: $darkest-grey;
+  }
+}
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    position: relative;
+    padding: 0 100px 0 0;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+}
+.contact-icon {
+  &:after {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+  }
+}
+.contact-map-icon:after {
+  top: 10px;
+  background: url(../img/compass.svg) 50% 50% no-repeat;
+}
+.contact-phone-icon:after {
+  top: 10px;
+  background: url(../img/mobile.svg) 50% 50% no-repeat;
+}
+.contact-email-icon:after {
+  top: -2px;
+  background: url(../img/mail.svg) 50% 50% no-repeat;
+}
+
+// Google Map
+.contact-map {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.google-map {
+  width: 100%;
+  z-index: 300;
+  @include breakpoint(m) {
+    height: 600px;
+  }
+}
+

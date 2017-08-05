@@ -1,0 +1,15 @@
+// About
+
+.about-image-banner {
+  background: url(../img/romania.jpg) 0 0 no-repeat;
+  background-size: cover;
+  @include breakpoint(m) {
+    min-height: 1400px;
+  }
+  @include breakpoint(l) {
+    min-height: 1200px;
+  }
+  @include breakpoint(xl) {
+    min-height: 1000px;
+  }
+}

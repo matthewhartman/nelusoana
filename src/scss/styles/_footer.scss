@@ -1,2 +1,17 @@
 // Footer
-
+.footer {
+  background: $darkest-grey;
+  text-align: center;
+  padding: 80px 0;
+  .logo {
+    float: none;
+    display: inline-block;
+  }
+  p {
+    @include font-size(14);
+    @include line-height(20);
+    color: $lightest-grey;
+    margin: 4px 0 0 0;
+    display: block;
+  }
+}
