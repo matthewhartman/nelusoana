@@ -1,4 +1,7 @@
 // Contact
+
+.contact-block { margin-top: 10px; }
+
 .contact-content {
   width: 100%;
   @include breakpoint(m) {
@@ -18,18 +21,18 @@
   padding: 15px;
   @include breakpoint(m) {
     padding: 25px;
-    top: 55px;
+    top: 120px;
     width: 400px;
     float: right;
     margin-right: -60px;
   }
   @include breakpoint(l) {
     width: 440px;
-    top: 70px;
+    top: 130px;
   }
   @include breakpoint(xl) {
     width: 480px;
-    top: 95px;
+    top: 140px;
   }
 }
 .contact-content-info {

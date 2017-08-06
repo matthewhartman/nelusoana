@@ -1,0 +1,47 @@
+// Work
+
+.work-block { margin: 10px 0; }
+
+.work-image-banner {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  background-size: cover;
+  @include breakpoint(m) {
+    min-height: 200px;
+  }
+  @include breakpoint(l) {
+    min-height: 300px;
+  }
+}
+
+.work-banner-1 { background: url(../img/poppies.jpg) 50% 50% no-repeat; }
+.work-banner-2 { background: url(../img/restless-field.jpg) 50% 50% no-repeat; }
+.work-banner-3 { background: url(../img/field.jpg) 50% 50% no-repeat; }
+.work-banner-4 { background: url(../img/field-2.jpg) 50% 50% no-repeat; }
+
+.work-link {
+  font-family: $base-heading-font-family;
+  @include font-size(36);
+  @include line-height(44);
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -60px;
+  text-align: center;
+  border: 15px solid $white;
+  display: block;
+  text-decoration: none;
+  background: $red;
+  color: $white;
+  padding: 25px 10px;
+  font-weight: 700;
+  transition: .4s all;
+  &:hover {
+    transition: .4s all;
+    color: $lightest-grey;
+  }
+}

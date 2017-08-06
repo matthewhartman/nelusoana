@@ -1662,7 +1662,7 @@ input:-ms-input-placeholder {
   background-size: cover;
   color: #fff;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding-top: 50px;
   padding-bottom: 50px; }
   .banner-wrap:after {
@@ -1801,6 +1801,59 @@ input:-ms-input-placeholder {
     .about-image-banner {
       min-height: 1000px; } }
 
+.work-block {
+  margin: 10px 0; }
+
+.work-image-banner {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  background-size: cover; }
+  @media only screen and (min-width: 740px) {
+    .work-image-banner {
+      min-height: 200px; } }
+  @media only screen and (min-width: 980px) {
+    .work-image-banner {
+      min-height: 300px; } }
+
+.work-banner-1 {
+  background: url(../img/poppies.jpg) 50% 50% no-repeat; }
+
+.work-banner-2 {
+  background: url(../img/restless-field.jpg) 50% 50% no-repeat; }
+
+.work-banner-3 {
+  background: url(../img/field.jpg) 50% 50% no-repeat; }
+
+.work-banner-4 {
+  background: url(../img/field-2.jpg) 50% 50% no-repeat; }
+
+.work-link {
+  font-family: "Clicker Script";
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 44px;
+  line-height: 2.75rem;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -60px;
+  text-align: center;
+  border: 15px solid #fff;
+  display: block;
+  text-decoration: none;
+  background: #db3333;
+  color: #fff;
+  padding: 25px 10px;
+  font-weight: 700;
+  transition: .4s all; }
+  .work-link:hover {
+    transition: .4s all;
+    color: #ccc; }
+
 .critic-review-image-banner {
   background: url(../img/romania-2.jpg) 0 0 no-repeat;
   background-size: cover; }
@@ -1813,6 +1866,9 @@ input:-ms-input-placeholder {
   @media only screen and (min-width: 1140px) {
     .critic-review-image-banner {
       min-height: 900px; } }
+
+.contact-block {
+  margin-top: 10px; }
 
 .contact-content {
   width: 100%; }
@@ -1834,18 +1890,18 @@ input:-ms-input-placeholder {
   @media only screen and (min-width: 740px) {
     .contact-content-inner {
       padding: 25px;
-      top: 55px;
+      top: 120px;
       width: 400px;
       float: right;
       margin-right: -60px; } }
   @media only screen and (min-width: 980px) {
     .contact-content-inner {
       width: 440px;
-      top: 70px; } }
+      top: 130px; } }
   @media only screen and (min-width: 1140px) {
     .contact-content-inner {
       width: 480px;
-      top: 95px; } }
+      top: 140px; } }
 
 .contact-content-info {
   padding: 50px 30px 20px 30px;
