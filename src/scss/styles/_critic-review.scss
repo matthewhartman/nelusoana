@@ -1,0 +1,15 @@
+// Critic Review
+
+.critic-review-image-banner {
+  background: url(../img/tree.jpg) 0 0 no-repeat;
+  background-size: cover;
+  @include breakpoint(m) {
+    min-height: 1300px;
+  }
+  @include breakpoint(l) {
+    min-height: 1100px;
+  }
+  @include breakpoint(xl) {
+    min-height: 900px;
+  }
+}

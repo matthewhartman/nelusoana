@@ -1650,6 +1650,19 @@ input:-ms-input-placeholder {
     .about-image-banner {
       min-height: 1000px; } }
 
+.critic-review-image-banner {
+  background: url(../img/tree.jpg) 0 0 no-repeat;
+  background-size: cover; }
+  @media only screen and (min-width: 740px) {
+    .critic-review-image-banner {
+      min-height: 1300px; } }
+  @media only screen and (min-width: 980px) {
+    .critic-review-image-banner {
+      min-height: 1100px; } }
+  @media only screen and (min-width: 1140px) {
+    .critic-review-image-banner {
+      min-height: 900px; } }
+
 .contact-content {
   width: 100%; }
   @media only screen and (min-width: 740px) {
