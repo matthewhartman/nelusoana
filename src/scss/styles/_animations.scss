@@ -1,0 +1,24 @@
+// Animations
+
+@keyframes openCurtainDown {
+  0% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate3d(0, 100%, 0);
+    animation-timing-function: linear;
+  }
+}
+@keyframes openCurtainUp {
+  0% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate3d(0, -100%, 0);
+    animation-timing-function: linear;
+  }
+}
+.open-curtain-up { animation-name: openCurtainUp; }
+.open-curtain-down { animation-name: openCurtainDown; }
