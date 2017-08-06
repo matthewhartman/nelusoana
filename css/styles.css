@@ -1854,17 +1854,17 @@ input:-ms-input-placeholder {
     transition: .4s all;
     color: #ccc; }
 
-.critic-review-image-banner {
+.critics-review-image-banner {
   background: url(../img/romania-2.jpg) 0 0 no-repeat;
   background-size: cover; }
   @media only screen and (min-width: 740px) {
-    .critic-review-image-banner {
+    .critics-review-image-banner {
       min-height: 1300px; } }
   @media only screen and (min-width: 980px) {
-    .critic-review-image-banner {
+    .critics-review-image-banner {
       min-height: 1100px; } }
   @media only screen and (min-width: 1140px) {
-    .critic-review-image-banner {
+    .critics-review-image-banner {
       min-height: 900px; } }
 
 .contact-block {
