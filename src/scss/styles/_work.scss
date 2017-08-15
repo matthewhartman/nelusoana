@@ -6,7 +6,6 @@
   width: 50%;
   min-height: 200px;
   float: left;
-  background-size: cover;
   @include breakpoint(m) {
     min-height: 200px;
   }
@@ -15,10 +14,22 @@
   }
 }
 
-.work-banner-1 { background: url(../img/poppies.jpg) 50% 50% no-repeat; }
-.work-banner-2 { background: url(../img/restless-field.jpg) 50% 50% no-repeat; }
-.work-banner-3 { background: url(../img/field.jpg) 50% 50% no-repeat; }
-.work-banner-4 { background: url(../img/field-2.jpg) 50% 50% no-repeat; }
+.work-banner-1 {
+  background: url(../img/poppies.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.work-banner-2 {
+  background: url(../img/restless-field.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.work-banner-3 {
+  background: url(../img/field.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.work-banner-4 {
+  background: url(../img/field-2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
 
 .work-link {
   font-family: $base-heading-font-family;

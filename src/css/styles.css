@@ -1807,8 +1807,7 @@ input:-ms-input-placeholder {
 .work-image-banner {
   width: 50%;
   min-height: 200px;
-  float: left;
-  background-size: cover; }
+  float: left; }
   @media only screen and (min-width: 740px) {
     .work-image-banner {
       min-height: 200px; } }
@@ -1817,16 +1816,20 @@ input:-ms-input-placeholder {
       min-height: 300px; } }
 
 .work-banner-1 {
-  background: url(../img/poppies.jpg) 50% 50% no-repeat; }
+  background: url(../img/poppies.jpg) 50% 50% no-repeat;
+  background-size: cover; }
 
 .work-banner-2 {
-  background: url(../img/restless-field.jpg) 50% 50% no-repeat; }
+  background: url(../img/restless-field.jpg) 50% 50% no-repeat;
+  background-size: cover; }
 
 .work-banner-3 {
-  background: url(../img/field.jpg) 50% 50% no-repeat; }
+  background: url(../img/field.jpg) 50% 50% no-repeat;
+  background-size: cover; }
 
 .work-banner-4 {
-  background: url(../img/field-2.jpg) 50% 50% no-repeat; }
+  background: url(../img/field-2.jpg) 50% 50% no-repeat;
+  background-size: cover; }
 
 .work-link {
   font-family: "Clicker Script";
