@@ -73,14 +73,19 @@
   top: -2px;
   background: url(../img/mail.svg) 50% 50% no-repeat;
 }
+.contact-instagram-icon:after {
+  top: -2px;
+  background: url(../img/instagram.svg) 50% 50% no-repeat;
+}
 
 // Google Map
-.contact-map {
+.placeholder {
   width: 100%;
   overflow: hidden;
   position: relative;
+  @include background-alpha($dark-blue, 90%);
 }
-.google-map {
+.placeholder-inner {
   width: 100%;
   z-index: 300;
   @include breakpoint(m) {
